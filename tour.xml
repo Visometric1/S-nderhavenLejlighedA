@@ -77,7 +77,7 @@
 
 	<scene name="scene_01_Entre" title="Entre" onstart="" thumburl="panos/01_Entre.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-104.564" vlookat="1.026" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/01_Entre.tiles/preview.jpg" />
 
