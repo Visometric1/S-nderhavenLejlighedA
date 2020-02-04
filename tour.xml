@@ -1,4 +1,4 @@
-﻿<krpano version="1.19" title="Sønderhaven Lejlighed A">
+﻿<krpano version="1.19" title="Virtual Tour">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -25,7 +25,7 @@
 	               thumbs_loop="false"
 	               tooltips_buttons="false"
 	               tooltips_thumbs="false"
-	               tooltips_hotspots="true"
+	               tooltips_hotspots="false"
 	               tooltips_mapspots="false"
 	               deeplinking="false"
 	               loadscene_flags="MERGE|KEEPVIEW"
@@ -60,7 +60,7 @@
 	-->
 	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
 	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
-  <include url="skin/vtourskin_design_ultra_light.xml" /> 
+	     <include url="skin/vtourskin_design_ultra_light.xml" />
 	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
 	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
@@ -75,7 +75,7 @@
 
 
 
-	<scene name="scene_00_Entre" title="Entre" onstart="" thumburl="panos/00_Entre.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_00_Entre" title="00_Entre" onstart="" thumburl="panos/00_Entre.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -92,14 +92,14 @@
 				<cube url="panos/00_Entre.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="139.221" atv="46.309" linkedscene="scene_01_garderobe" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-41.189" atv="52.302" linkedscene="scene_02_sovev__relse" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="13.693" atv="24.890" linkedscene="scene_03_badev__relse" />
-		<hotspot name="spot4" style="skin_hotspotstyle" ath="2.138" atv="15.514" linkedscene="scene_05_spiseplads" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="136.551" atv="47.339" linkedscene="scene_01_garderobe" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-37.122" atv="54.861" linkedscene="scene_02_sovev__relse" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="13.675" atv="26.254" linkedscene="scene_03_badev__relse" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="2.612" atv="16.618" linkedscene="scene_05_spiseplads" />
 
 	</scene>
 
-	<scene name="scene_01_Garderobe" title="Garderobe" onstart="" thumburl="panos/01_Garderobe.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_01_Garderobe" title="01_Garderobe" onstart="" thumburl="panos/01_Garderobe.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -116,11 +116,11 @@
 				<cube url="panos/01_Garderobe.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.641" atv="58.674" linkedscene="scene_00_entre" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="8.317" atv="45.099" linkedscene="scene_00_entre" />
 
 	</scene>
 
-	<scene name="scene_02_Sovev__relse" title="Soveværelse" onstart="" thumburl="panos/02_Sovev__relse.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_02_Sovev__relse" title="02_Soveværelse" onstart="" thumburl="panos/02_Sovev__relse.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -137,11 +137,11 @@
 				<cube url="panos/02_Sovev__relse.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-165.272" atv="71.224" linkedscene="scene_00_entre" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-166.410" atv="60.922" linkedscene="scene_00_entre" />
 
 	</scene>
 
-	<scene name="scene_03_Badev__relse" title="Badeværelse" onstart="" thumburl="panos/03_Badev__relse.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_03_Badev__relse" title="03_Badeværelse" onstart="" thumburl="panos/03_Badev__relse.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -158,11 +158,11 @@
 				<cube url="panos/03_Badev__relse.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-118.420" atv="55.120" linkedscene="scene_00_entre" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-124.148" atv="43.079" linkedscene="scene_00_entre" />
 
 	</scene>
 
-	<scene name="scene_04_V__relse" title="Værelse" onstart="" thumburl="panos/04_V__relse.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_04_V__relse" title="04_Værelse" onstart="" thumburl="panos/04_V__relse.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -179,11 +179,11 @@
 				<cube url="panos/04_V__relse.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-84.208" atv="39.317" linkedscene="scene_05_spiseplads" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-86.819" atv="38.823" linkedscene="scene_00_entre" />
 
 	</scene>
 
-	<scene name="scene_05_Spiseplads" title="Spiseplads" onstart="" thumburl="panos/05_Spiseplads.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_05_Spiseplads" title="05_Spiseplads" onstart="" thumburl="panos/05_Spiseplads.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -200,13 +200,13 @@
 				<cube url="panos/05_Spiseplads.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-158.438" atv="39.232" linkedscene="scene_04_v__relse" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-47.592" atv="30.902" linkedscene="scene_06_opholdsrum" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="167.973" atv="26.192" linkedscene="scene_00_entre" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-160.850" atv="42.801" linkedscene="scene_04_v__relse" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="167.618" atv="24.572" linkedscene="scene_00_entre" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-47.975" atv="27.417" linkedscene="scene_06_opholdsrum" />
 
 	</scene>
 
-	<scene name="scene_06_Opholdsrum" title="Opholdsrum" onstart="" thumburl="panos/06_Opholdsrum.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_06_Opholdsrum" title="06_Opholdsrum" onstart="" thumburl="panos/06_Opholdsrum.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -223,7 +223,7 @@
 				<cube url="panos/06_Opholdsrum.tiles/%t/%s/l1/%v/l1_%t/%s_%v_%h.jpg" />
 			</level>
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="46.498" atv="29.861" linkedscene="scene_05_spiseplads" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="37.271" atv="29.778" linkedscene="scene_05_spiseplads" />
 
 	</scene>
 
